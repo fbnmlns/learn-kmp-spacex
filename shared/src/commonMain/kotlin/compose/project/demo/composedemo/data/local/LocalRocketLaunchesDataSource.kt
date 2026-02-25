@@ -5,7 +5,7 @@ import compose.project.demo.composedemo.domain.entity.Patch
 import compose.project.demo.composedemo.domain.entity.RocketLaunch
 import sqldelight.compose.project.demo.composedemo.data.local.AppDatabase
 
-class LocalRocketLaunchesDataSource(database: AppDatabase) : ILocalRocketLaunchesDataSource {
+class  LocalRocketLaunchesDataSource(database: AppDatabase) : ILocalRocketLaunchesDataSource {
     private val dbQuery = database.appDatabaseQueries
 
     override fun getAllLaunches(): List<RocketLaunch> {
