@@ -135,6 +135,9 @@ kotlin {
             }
         }
     }
+    sourceSets.commonMain.dependencies {
+        implementation(kotlin("test"))
+    }
 }
 
 sqldelight {
