@@ -144,6 +144,6 @@ kotlin {
 }
 
 sqldelight {
-    databases { create("AppDatabase") { packageName.set("compose.project.demo.composedemo.data.local") } }
+    databases { create("AppDatabase") { packageName.set("sqldelight.compose.project.demo.composedemo.data.local") } }
     linkSqlite = true
 }
