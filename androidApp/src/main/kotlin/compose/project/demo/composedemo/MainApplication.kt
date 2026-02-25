@@ -1,7 +1,7 @@
 package compose.project.demo.composedemo
 
 import android.app.Application
-import compose.project.demo.composedemo.shared.initKoin
+import compose.project.demo.composedemo.di.initKoin
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 

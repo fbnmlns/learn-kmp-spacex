@@ -1,6 +1,6 @@
-package compose.project.demo.composedemo.shared
+package compose.project.demo.composedemo.di
 
-import compose.project.demo.composedemo.shared.modules.sharedModule
+import compose.project.demo.composedemo.di.modules.sharedModule
 import org.koin.core.KoinApplication
 import org.koin.core.context.startKoin
 import org.koin.dsl.KoinAppDeclaration

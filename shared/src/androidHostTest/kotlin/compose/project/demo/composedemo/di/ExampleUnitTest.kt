@@ -1,4 +1,4 @@
-package compose.project.demo.composedemo.shared
+package compose.project.demo.composedemo.di
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

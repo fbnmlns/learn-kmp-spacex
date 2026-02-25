@@ -1,4 +1,4 @@
-package compose.project.demo.composedemo.shared.modules
+package compose.project.demo.composedemo.di.modules
 
 import org.koin.dsl.module
 
